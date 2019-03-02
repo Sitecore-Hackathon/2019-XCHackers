@@ -21,9 +21,9 @@ SharedFields:
         
         Import-Function -Name "Remove-BrokenLinks"
         Import-Function -Name "Reset-SharedLayout"
-        Import-Function -Name "Sort-Renderings"
         Import-Function -Name "Set-Tokens"
-        
+        # Import-Function -Name "Sort-Renderings"
+    
         $item = Add-ItemVersion -Item $item
         
         Set-Tokens -Item $item
@@ -36,9 +36,9 @@ SharedFields:
             Reset-SharedLayout -Item $item
         }
     
-        if ($sortRenderings) {
-            Sort-Renderings -Item $item
-        }
+        # if ($sortRenderings) {
+        #    Sort-Renderings -Item $item
+        # }
     }
 Languages:
 - Language: en

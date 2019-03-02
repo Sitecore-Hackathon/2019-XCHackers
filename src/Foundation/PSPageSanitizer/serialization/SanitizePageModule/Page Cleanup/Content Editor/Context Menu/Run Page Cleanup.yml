@@ -39,9 +39,8 @@ SharedFields:
         OkButtonName = "Proceed"
         CancelButtonName = "Abort"
         Parameters = @(
-            @{ Name = "brokenlinks"; Value = $false; Title = "Check for broken links"; Tooltip = "Check for broken links" }
-            @{ Name = "invalidrenderings"; Value = $false; Title = "Check for broken rendering datasources"; Tooltip = "Check for broken rendering datasources" }
-            @{ Name = "sortrenderings"; Value = $false; Title = "Sort renderings"; Tooltip = "Sort renderings" }
+            @{ Name = "brokenlinks"; Value = $false; Title = "Check for and remove broken links"; Tooltip = "Check for broken links" }
+            @{ Name = "invalidrenderings"; Value = $false; Title = "Check for and remove broken renderings"; Tooltip = "Check for broken renderings" }
             @{ Name = "resetsharedlayout"; Value = $false; Title = "Reset Shared Layout"; Tooltip = "Reset Shared Layout" }
         )
     }
