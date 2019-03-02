@@ -1,0 +1,18 @@
+﻿---
+ID: "c75b5c9f-d091-47da-8a0e-7fafc5f9d1b8"
+Parent: "a23f80b2-cc68-4659-ba12-6756d5d611ac"
+Template: "ab154d3d-1126-4ab4-ac21-8b86e6bd70ea"
+Path: /sitecore/system/Modules/PowerShell/Script Library/SPE/Maintenance/Page Cleanup/Content Editor/Context Menu
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T150929Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\xcadmin

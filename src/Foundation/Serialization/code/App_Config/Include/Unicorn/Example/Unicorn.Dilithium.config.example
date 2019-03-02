@@ -30,7 +30,7 @@
 		<unicorn>
 			<defaults>
 				<!-- 
-					Set Dilithium SQL as the default source data store. Configurations may of course override 
+					Set Dilithium SQL as the default source data store. Configurations may of course override this.
 					Patch this out if you do not wish to default to use Dilithium to read from Sitecore.
 				-->
 				<sourceDataStore>
@@ -38,7 +38,7 @@
 				</sourceDataStore>
 
 				<!-- 
-					Set Dilithium Serialized as the default source data store. Configurations may of course override 
+					Set Dilithium Serialized as the default source data store. Configurations may of course override this.
 					Patch this out if you do not wish to default to use Dilithium to read from Disk.
 					This can use additional memory compared to DiSQL when syncing media items.
 				-->
